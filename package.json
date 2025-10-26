@@ -7,13 +7,14 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "dev:server": "cd server && PORT=3001 npm run dev",
+    "dev:server": "cd server && npm run dev",
     "dev:client": "vite",
     "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\""
   },
   "dependencies": {
     "react": "^19.1.1",
-    "react-dom": "^19.1.1"
+    "react-dom": "^19.1.1",
+    "styled-components": "^6.1.19"
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",
